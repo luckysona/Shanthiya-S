@@ -1,10 +1,8 @@
 n=int(input())
 s=list(map(int,input().split()))
 L=[]
-a=min(s) 
-a1=s.index(a) 
-e=max(s)
-e1=s.index(e)  
+a1=(s.index(min(s))+1)
+e1=(s.index(max(s))+1)  
 L.append(a1)  
 L.append(e1)
 print(*L)
