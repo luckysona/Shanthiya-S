@@ -1,3 +1,3 @@
 import re
-string=input()
-print (re.sub(' +', ' ',string))
+s1=input()
+print (re.sub(' +', ' ',s1))
